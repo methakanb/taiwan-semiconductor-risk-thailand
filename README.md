@@ -1,0 +1,1 @@
+# taiwan-semiconductor-risk-thailand
