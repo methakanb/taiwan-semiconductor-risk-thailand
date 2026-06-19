@@ -1,0 +1,4 @@
+scenario,severity_pct,severity_factor,estimated_impact_usd_bn
+Mild,10,0.10,0.834727
+Moderate,20,0.20,1.669454
+Severe,40,0.40,3.338907

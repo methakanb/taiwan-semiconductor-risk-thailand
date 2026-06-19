@@ -1,0 +1,5 @@
+industry,production_value_usd_bn,revenue_at_risk_base_usd_bn,risk_level,confidence_level,mild_10pct_impact_usd_bn,moderate_20pct_impact_usd_bn,severe_40pct_impact_usd_bn
+Electronics,52.89,5.766760,Very High,High for production value; Medium for chip share,0.576676,1.153352,2.306704
+Automotive,53.00,0.924601,Moderate,Medium,0.092460,0.184920,0.369840
+HDD / Storage,13.36,0.874009,Moderate,Low,0.087401,0.174802,0.349604
+Home Appliances,29.88,0.781898,Moderate,Low,0.078190,0.156380,0.312759

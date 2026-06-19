@@ -1,0 +1,13 @@
+industry,scenario,severity_pct,severity_factor,revenue_at_risk_base_usd_bn,estimated_impact_usd_bn,risk_level,confidence_level
+Electronics,Mild,10,0.10,5.766760,0.576676,Very High,High for production value; Medium for chip share
+Electronics,Moderate,20,0.20,5.766760,1.153352,Very High,High for production value; Medium for chip share
+Electronics,Severe,40,0.40,5.766760,2.306704,Very High,High for production value; Medium for chip share
+Automotive,Mild,10,0.10,0.924601,0.092460,Moderate,Medium
+Automotive,Moderate,20,0.20,0.924601,0.184920,Moderate,Medium
+Automotive,Severe,40,0.40,0.924601,0.369840,Moderate,Medium
+HDD / Storage,Mild,10,0.10,0.874009,0.087401,Moderate,Low
+HDD / Storage,Moderate,20,0.20,0.874009,0.174802,Moderate,Low
+HDD / Storage,Severe,40,0.40,0.874009,0.349604,Moderate,Low
+Home Appliances,Mild,10,0.10,0.781898,0.078190,Moderate,Low
+Home Appliances,Moderate,20,0.20,0.781898,0.156380,Moderate,Low
+Home Appliances,Severe,40,0.40,0.781898,0.312759,Moderate,Low
