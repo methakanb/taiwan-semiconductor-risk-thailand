@@ -49,14 +49,20 @@ The objective of this project is to assess Thailand’s exposure to semiconducto
 - TSMC Annual Reports
 
 ## Project Structure
+
+```text
 taiwan-semiconductor-risk-thailand/
 ├── data/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 ├── src/
 ├── visuals/
 ├── report/
+├── phase2_semiconductor_import_analysis.xlsx
 ├── README.md
 └── requirements.txt
+```
 
 ## Author
 Methakan Bualuang  
