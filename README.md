@@ -245,6 +245,6 @@ Independent Research Project, 2026
 
 ## Project Status
 
-Completed as an independent research and portfolio project.
+Completed as an independent research project.
 
 Final report, datasets, code, and visualizations are included in this repository.
