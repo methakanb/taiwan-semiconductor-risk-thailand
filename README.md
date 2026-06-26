@@ -8,6 +8,13 @@ The project uses international trade data, industry-level production estimates, 
 
 ---
 
+## Reports
+
+* [Final Report](report/final_report.pdf)
+* [One-Page Project Summary](report/one_page_summary.pdf)
+
+---
+
 ## Project Overview
 
 Thailand is an important manufacturing hub for electronics, automotive products, hard disk drives, and home appliances. These industries depend heavily on imported semiconductors, especially integrated circuits classified under HS8542.
@@ -84,58 +91,30 @@ The scenario analysis applies three disruption severity assumptions to the base-
 
 These scenario severities are stress assumptions, not probability estimates.
 
-
 ---
 
 ## Repository Structure
 
-```text
-taiwan-semiconductor-risk-thailand/
-├── data/
-│   ├── raw/
-│   │   ├── TradeData.csv
-│   │   └── TradeData.xlsx
-│   └── processed/
-│       ├── phase2_clean_hs8542_imports.csv
-│       ├── taiwan_dependency_index.csv
-│       ├── top_suppliers_by_year.csv
-│       ├── methodology_note_other_asia_nes_proxy.md
-│       ├── industry_revenue_at_risk_inputs.csv
-│       ├── industry_revenue_at_risk_results.csv
-│       ├── scenario_definitions.csv
-│       ├── scenario_impact_results.csv
-│       ├── scenario_impact_results_long.csv
-│       ├── scenario_total_impact.csv
-│       └── phase5_recommendations.csv
-├── notebooks/
-│   ├── 01_phase2_data_cleaning_dependency_index.ipynb
-│   ├── 02_industry_revenue_at_risk.ipynb
-│   └── 03_scenario_analysis.ipynb
-├── src/
-│   ├── phase2_analysis_code.py
-│   ├── phase3_revenue_at_risk_code.py
-│   └── phase4_scenario_analysis_code.py
-├── visuals/
-│   ├── taiwan_dependency_trend.html
-│   ├── total_semiconductor_imports_trend.html
-│   ├── top_suppliers_2024.html
-│   ├── supplier_mix_stacked_share.html
-│   ├── industry_revenue_at_risk_bar.html
-│   ├── industry_revenue_at_risk_sensitivity.html
-│   ├── production_value_vs_risk.html
-│   ├── scenario_impact_by_industry.html
-│   ├── total_impact_by_scenario.html
-│   └── severe_scenario_ranking.html
-├── report/
-│   ├── final_report.pdf
-│   ├── phase2_findings_summary.md
-│   ├── phase3_findings_summary.md
-│   ├── phase4_findings_summary.md
-│   ├── final_report_outline.md
-│   └── executive_summary_draft.md
-├── README.md
-└── requirements.txt
-````
+* `data/raw/`
+  Raw UN Comtrade files such as `TradeData.csv` and `TradeData.xlsx`.
+
+* `data/processed/`
+  Cleaned datasets and model outputs, including TPDI, supplier shares, Revenue-at-Risk results, scenario outputs, and recommendations.
+
+* `notebooks/`
+  Jupyter notebooks for data cleaning, dependency-index construction, Revenue-at-Risk modeling, and scenario analysis.
+
+* `src/`
+  Python scripts used to reproduce the core calculations outside notebooks.
+
+* `visuals/`
+  Interactive Plotly HTML charts supporting the report figures.
+
+* `report/`
+  Final report, one-page summary, and supporting report materials.
+
+* `requirements.txt`
+  Python package requirements for reproducing the analysis.
 
 ---
 
@@ -180,11 +159,9 @@ pip install -r requirements.txt
 
 Run the notebooks in order:
 
-```text
-01_phase2_data_cleaning_dependency_index.ipynb
-02_industry_revenue_at_risk.ipynb
-03_scenario_analysis.ipynb
-```
+1. `01_phase2_data_cleaning_dependency_index.ipynb`
+2. `02_industry_revenue_at_risk.ipynb`
+3. `03_scenario_analysis.ipynb`
 
 Alternatively, run the Python scripts in the `src/` folder to reproduce the main calculations.
 
@@ -201,6 +178,7 @@ The project produces the following outputs:
 * Scenario impact estimates
 * Interactive Plotly visualizations
 * Final analytical report
+* One-page project summary
 * Policy and firm-level recommendations
 
 ---
@@ -238,13 +216,14 @@ The report recommends five actions for Thai firms and policymakers:
 ## Author
 
 **Methakan Bualuang**<br>
-Industrial Engineering, Chulalongkorn University<br>
+Industrial Engineering<br>
+Chulalongkorn University<br>
 Independent Research Project, 2026
 
 ---
 
 ## Project Status
 
-Completed as an independent research project.
+Completed as an independent data-driven research project.
 
-Final report, datasets, code, and visualizations are included in this repository.
+The final report, datasets, source code, notebooks, and visualizations are included in this repository.
