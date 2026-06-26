@@ -238,8 +238,8 @@ The report recommends five actions for Thai firms and policymakers:
 ## Author
 
 **Methakan Bualuang**
-Industrial Engineering
-Chulalongkorn University
+Industrial Engineering, Chulalongkorn University
+Independent Research Project, 2026
 
 ---
 
