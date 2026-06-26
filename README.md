@@ -56,9 +56,9 @@ The analysis is built around three main components.
 
 The Taiwan Proxy Dependency Index measures Thailand's annual import dependency on the Taiwan proxy category.
 
-```text
-TPDI (%) = Imports from Other Asia, nes / Total HS8542 Imports × 100
-```
+**Formula:**
+
+> TPDI (%) = Imports from Other Asia, nes / Total HS8542 Imports × 100
 
 The index is calculated using Thailand's HS8542 import data from 2014 to 2024.
 
@@ -66,22 +66,9 @@ The index is calculated using Thailand's HS8542 import data from 2014 to 2024.
 
 The Revenue-at-Risk model converts trade-level semiconductor dependency into industry-level exposure estimates.
 
-````text
- 1. Taiwan Proxy Dependency Index
+**Formula:**
 
-The Taiwan Proxy Dependency Index measures Thailand's annual import dependency on the Taiwan proxy category.
-
-```text
-TPDI (%) = Imports from Other Asia, nes / Total HS8542 Imports × 100
-````
-
-The index is calculated using Thailand's HS8542 import data from 2014 to 2024.
-
-### 2. Industry Revenue-at-Risk Model
-
-The Revenue-at-Risk model converts tradeRevenue at Risk = Production Value × Semiconductor Cost Share × Taiwan Proxy Dependency
-
-````
+> Revenue at Risk = Production Value × Semiconductor Cost Share × Taiwan Proxy Dependency
 
 Revenue at Risk should be interpreted as semiconductor-linked exposure, not as a direct forecast of revenue loss.
 
@@ -89,13 +76,14 @@ Revenue at Risk should be interpreted as semiconductor-linked exposure, not as a
 
 The scenario analysis applies three disruption severity assumptions to the base-case Revenue-at-Risk results.
 
-| Scenario | Severity | Interpretation |
-|---|---:|---|
-| Mild | 10% | Limited allocation issue or short-term disruption |
-| Moderate | 20% | Partial disruption affecting a meaningful share of exposure |
-| Severe | 40% | Major disruption short of a full Taiwan foundry shutdown |
+| Scenario | Severity | Interpretation                                              |
+| -------- | -------: | ----------------------------------------------------------- |
+| Mild     |      10% | Limited allocation issue or short-term disruption           |
+| Moderate |      20% | Partial disruption affecting a meaningful share of exposure |
+| Severe   |      40% | Major disruption short of a full Taiwan foundry shutdown    |
 
 These scenario severities are stress assumptions, not probability estimates.
+
 
 ---
 
