@@ -12,7 +12,7 @@ The project uses international trade data, industry-level production estimates, 
 
 * [Final Report](report/final_report.pdf)
 * [One-Page Project Summary](report/one_page_summary.pdf)
-
+* [slide deck](report/slide_deck.pdf)
 ---
 
 ## Project Overview
