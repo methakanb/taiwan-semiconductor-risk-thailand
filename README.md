@@ -13,7 +13,7 @@ The project uses international trade data, industry-level production estimates, 
 * [Final Report](report/Thailand_Semiconductor_Risk_Assessment_Final_Report.pdf)
 * [One-Page Project Summary](report/Thailand_Semiconductor_Risk_Assessment_One_Page_Summary.pdf)
 * [slide deck](report/Thailand_Semiconductor_Risk_Assessment_Slide_Deck.pdf)
-.pdf)
+
 ---
 
 ## Project Overview
